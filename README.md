@@ -1,4 +1,6 @@
 # Data and analysis code from Bianchi et al. (Frontiers in Human Neuroscience, under review)
+The code for novel EEG analysis technique to study multiple co-varibles over the whole spatio-temporal ERP signal can be found at https://github.com/brunobian/LMM-CBP. It combines Linear-Mixed Models and Cluster-Based Permutation procedures into a single framework, more details can be found in Bianchi, Shalom and Kamienkowski (under review).
+
 These are the code and data to build the figures from Bianchi, Shalom and Kamienkowski (under review). 
 
 The code is written almost entirely in Matlab, and only uses some functions from [FieldTrip] for Fig. S2B. Pre-analysis (not included) also uses [EEGLAB]. The code for the [LMM-CBP](https://github.com/brunobian/LMM-CBP) combines Matlab and R functions. In particular, it uses lme4 for Linear Mixed Models. For further details please refer to Bianchi et al. (under review).
