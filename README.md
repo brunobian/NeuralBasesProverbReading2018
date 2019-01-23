@@ -41,5 +41,5 @@ For Fig 5, the 'Position*Sentences type' partial effect was removed in the R env
 #### LMM-CBP data (not included in this repository)
 The data to run the LMM-CBP is not included in this repository because it weights ~4.9Gb. Please, find it in our project website: http://reading.liaa.dc.uba.ar/ 
 
-# Figures'code
+# Figures' code
 figures/\*.m contains all the files with the codes to create all the Figures from Bianchi et al. (under review). They use EEGLAB, FielTrip and LMM-CBP (See 'required packages') toolboxes and niceBars2.m (also included). Thus, it's necessary to add functions/ folder to the path, as well as those packages depending on which figure you want to run. It's also necessary to add data/ folder to the path or include in the same folder the necessary summary data to create the figures,
