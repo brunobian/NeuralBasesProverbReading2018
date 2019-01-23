@@ -3,6 +3,8 @@ clear all
 close all
 load('../data/EEG') % load EEG pre-analized data
 addpath('../functions/')
+addpath('/home/brunobian/Documents/Repos/fieldtrip/')
+ft_defaults
 
 colores = [[1 1 1]; ...
            [1 .3 .3]; [0 1 0]; [0 0 1]; ...

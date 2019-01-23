@@ -4,6 +4,7 @@ close all
 load('../data/EEG') % load EEG pre-analized data
 addpath('../functions/')
 addpath('/home/brunobian/Documents/Repos/fieldtrip/')
+ft_defaults
 %% Fig 2 (a-c)     - Results - ERPs - Pred
 runStats = 1;
 plotTopo = 1;
